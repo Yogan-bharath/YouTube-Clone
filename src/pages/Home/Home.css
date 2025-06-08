@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #a6a6a6;
+}
+.contener{
+    /* border: 2px solid black; */
+    margin-left:250px;
+    margin-top:10px;
+}
+.large-contener{
+    margin-left:95px;
+    margin-top:10px;
+}

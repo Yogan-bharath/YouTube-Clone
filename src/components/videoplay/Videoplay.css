@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #a6a6a6;
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+.video-container iframe{
+    border-radius: 10px;
+    height: 37vw;
+}
+.video-container h3{
+    font-size:20px;
+}
+.channel-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.channel-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.channel-info img{
+    width: 45px;
+}
+.channel-name{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.channel-sub{
+    font-size: 13px;
+}
+
+
+.main-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.comment-content p{
+    /* border: 2px solid black ; */
+    margin-left: 0;
+}
+.comment img{
+    border-radius: 50px;
+}
+.sub-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 540;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.likes{
+ /* border: 2px solid black; */
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+ gap: 10px;
+}
+.likes img{
+    width: 20px;
+}
+.Likes{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 15px 7px 6px;
+    border-radius: 50px;
+    background-color: #E5E5E5;
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.like::after{
+    content: '';
+    background-color: #a6a6a6;
+    height: 100%;
+    width: 1.4px;
+    position: absolute;
+    right: -7px;
+}
+.dislike{
+    width:150px;
+    margin: 0px 7px;
+}
+.share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #E5E5E5;
+    padding: .5rem 1rem;
+}
+
+.download-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem .7rem;
+    border-radius: 50px;
+    background-color: #E5E5E5;
+    gap: .2rem;
+}
+.download-sec img{
+    width: 25px;
+}
+.three{
+    padding: .1rem .3rem;
+    border-radius: 50px;
+     background-color: #E5E5E5;
+    align-self: center;
+
+    }
+.three img{
+    width: 25px;
+}
+
+.discription{
+    background-color: #E5E5E5;
+     border-radius: 10px;
+     margin-top: 20px;
+     padding: 10px;
+}
+.dis-info{
+    font-size:15px;
+    font-weight: 545;
+    margin-bottom: 5px;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.comment{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.comment .profile{
+    width: 44px;
+    height: 44px;
+}
+.comment-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 5px;
+}
+.dis-likes{
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+
+}
+.dis-likes .like{
+    width:20px;
+    height: 20px;
+}
+.dis-likes .dislike{
+    width: 28px;
+    height: 25px;
+}
+.like-dislike-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

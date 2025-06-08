@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #a6a6a6;
+}
+.video{
+    display: flex;
+}
+.video-paly{
+    flex-basis:1.5;
+    margin-left:8.5vw;
+    margin-top:19px;
+    width: 55%;
+    /* border:2px solid black; */
+}
+.video-sajust{
+    /* border:2px solid black; */
+    flex-basis: 5;
+    width: 30%;
+}

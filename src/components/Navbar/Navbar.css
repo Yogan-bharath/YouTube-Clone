@@ -26,6 +26,7 @@ a{
     background-color: #F0F0F0;
     opacity: .957;
 }
+
 .nav-left{
     /* border: 2px solid black; */
     display: flex;
@@ -106,7 +107,21 @@ a{
       .nav-mid-search input{
         display: none;
     }
+
+  
 }
+
+@media (max-width:380px){
+      .nav-right .plus img{
+    display: none;
+       
+    }
+    .nav-right{
+        gap: 2px;
+    }
+}
+
+
 .nav-mid-search input:focus{
     border: 1px solid blue;
 }

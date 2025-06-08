@@ -22,7 +22,7 @@ a{
 }
 @media (max-width:791px){
     .large-contener,.contener{
-        margin-left: 2vw;
+        margin-left:0vw;
     }
 }
 @media (max-width:717px){

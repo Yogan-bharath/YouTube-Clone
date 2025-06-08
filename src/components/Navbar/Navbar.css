@@ -96,6 +96,17 @@ a{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
+@media (max-width:791px){
+    .nav-mid-search input{
+        min-width: 20px;
+    }
+}
+
+@media (max-width:766px){
+      .nav-mid-search input{
+        display: none;
+    }
+}
 .nav-mid-search input:focus{
     border: 1px solid blue;
 }

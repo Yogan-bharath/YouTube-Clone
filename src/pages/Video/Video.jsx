@@ -10,9 +10,6 @@ const Video = () => {
       <div className='video-paly'>
         <Videoplay videoId={videoId} categoryId={categoryId}/>
       </div>
-      <div className='video-sajust'>
-        <Sidevideo/>
-      </div>
     </div>
   )
 }

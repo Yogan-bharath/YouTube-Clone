@@ -20,3 +20,13 @@ a{
     margin-left:95px;
     margin-top:10px;
 }
+@media (max-width:791px){
+    .large-contener,.contener{
+        margin-left: 2vw;
+    }
+}
+@media (max-width:717px){
+    .large-contener,.contener{
+        width: 100%;
+    }
+}

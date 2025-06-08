@@ -17,7 +17,7 @@ a{
 }
 .video-container iframe{
     border-radius: 10px;
-    height: 37vw;
+    height: 45vw;
 }
 .video-container h3{
     font-size:20px;
@@ -50,6 +50,21 @@ a{
     justify-content: space-between;
     align-items: flex-start;
 }
+@media (max-width:730px){
+    .main-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+    align-items: flex-start;
+}
+.video-container iframe{
+    border-radius: 10px;
+    height: 55vw;
+}
+}
+
+
 .comment-content p{
     /* border: 2px solid black ; */
     margin-left: 0;
@@ -140,6 +155,31 @@ a{
 .three img{
     width: 25px;
 }
+@media (max-width:450px){
+    .Likes{
+    padding: 5px 2px 5px 2px;
+}
+}
+@media (max-width:450px){
+    .Likes{
+    padding: 3px 2px 3px 2px;
+}
+.likes img{
+    width: 15px;
+}
+.likes{
+    font-size: 15px;
+}
+
+}
+
+@media (max-width:389px){
+.three{
+    display: none;
+}
+
+}
+
 
 .discription{
     background-color: #E5E5E5;
@@ -161,8 +201,10 @@ a{
 }
 
 .comment{
+    /* border: 2px solid black; */
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 20px;
 }
 .comment .profile{
@@ -170,10 +212,11 @@ a{
     height: 44px;
 }
 .comment-content{
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 5px;
 }
 .dis-likes{

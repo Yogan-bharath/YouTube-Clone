@@ -84,7 +84,6 @@ const [commentdata,setcommentdata] = useState([])
             <h4>Download</h4>
           </div>
           <div  className='three'>
-
           <img src={three}/>
           </div>
       </div>

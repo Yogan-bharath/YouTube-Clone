@@ -12,24 +12,42 @@ a{
     color: #a6a6a6;
 }
 .contaner{
-    margin-left:220px;
+    margin-left:230px;
+    /* border: 2px solid black; */
     display: grid;
 }
+
+
 .feed{
     /* border: 2px solid black; */
     display: grid;
     grid-template-columns: repeat(3,minmax(250px,1fr));
     gap: 10px;
 }
-.card{
-    /* border: 2px solid black; */
+
+
+@media (max-width:1140px){
+    .feed{
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-columns: repeat(2,minmax(250px,1fr));
+        gap: 10px;
+    }
+}
+@media (max-width:600px){
+.feed{
+    display: grid;
+    grid-template-columns: repeat(1,minmax(250px,1fr));
+    gap: 10px;
+}
+}
+
+@media (max-width:533px){
+    .nav-mid{
+        display: none;
+    }
 }
 .card img{
-    /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items: center;
     border-radius: 20px;
     width: 100%;
     padding: 5px 5px 0px 5px;

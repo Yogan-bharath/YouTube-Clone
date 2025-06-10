@@ -1,7 +1,6 @@
 import React from 'react'
 import './Video.css'
 import Videoplay from '../../components/videoplay/Videoplay'
-import Sidevideo from '../../components/Sidevideo/Sidevideo'
 import { useParams } from 'react-router-dom'
 const Video = () => {
   const {videoId,categoryId} = useParams();

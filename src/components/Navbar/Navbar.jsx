@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
 const Navbar = ({setsidebar}) => {
   return (
     <nav className='nav-bar'>
-        <div onClick={()=>{setsidebar((prev)=>!prev)}} className='nav-left'>
-            <img  className='menu' src={menu}/>
+        <div  className='nav-left'>
+            <img  className='menu' src={menu} onClick={()=>{setsidebar((prev)=>!prev)}}/>
             <Link to={'/'} className='logo'>
             <img src={logo}/>
             <span>YouTube</span>

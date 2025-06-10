@@ -13,8 +13,8 @@ import news from '../../assets/news.png'
 
 const Sidebar = ({sidebar,category,setcategory}) => {
   return (
-    <div className='sidebar'>
-      <div className={`shortcut-links ${sidebar?'':'small-sidebar'}`}>
+    <div className={`sidebar ${sidebar?'':'small-sidebar'}`}>
+      <div className={`shortcut-links `}>
         <div className={`side-link ${category===0?'active':''}`} onClick={()=>{setcategory(0)}}>
           < img className='img' src={home} />
           <p>Home</p>

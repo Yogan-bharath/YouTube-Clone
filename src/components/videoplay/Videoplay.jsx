@@ -93,7 +93,7 @@ const [commentdata,setcommentdata] = useState([])
 
       <div className='discription'>
         <p className='dis-info'>{apidata ? value_converter(apidata.statistics.viewCount):'Channel Title'} views  {apidata ? moment(apidata.snippet.publishedAt).fromNow():'1 year ago'}</p>
-        <p>{apidata?apidata.snippet.description:'Description'}</p>
+        <p>{apidata?apidata.snippet.description.slice(0,250):'Description'}</p>
       </div>
 
       <div className='comments'> 
@@ -105,7 +105,7 @@ const [commentdata,setcommentdata] = useState([])
           <img className='profile' src={item.snippet.topLevelComment.snippet.authorProfileImageUrl}/>
           <div className='comment-content'>
               <h5>{item.snippet.topLevelComment.snippet.authorDisplayName}<span>2 months ago</span></h5>
-              <p>{item.snippet.topLevelComment.snippet.textDisplay.slice(0,110)}</p>
+              <p>{item.snippet.topLevelComment.snippet.textDisplay.slice(0,70)}</p>
               
               <div className='dis-likes'>
                 <div className='like-dislike-sec'>
